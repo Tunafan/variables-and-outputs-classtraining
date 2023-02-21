@@ -1,49 +1,50 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(38, 76, 89);
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(38, 76, 89);
 }
 
 header {
-    height: 10vh;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    background-color: rgb(38, 76, 89);
-    color: #f1f1f1;
+  height: 10vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(38, 76, 89);
+  color: #f1f1f1;
 }
 
 main {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-    height: 90vh;
-    grid-template-columns: auto;
-    grid-template-rows: 250px 250px 200px;
-    background-color: rgb(172, 198, 201);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 90vh;
+  grid-template-columns: auto;
+  grid-template-rows: 250px 250px 200px;
+  background-color: rgb(172, 198, 201);
 }
 
 button {
-    font-weight: 300;
-    font-size: 70px;
-    text-align: center;
-    cursor: pointer;
-    border: none;
-    border-radius: 0;
-    color: #f1f1f1;
-    background-color: rgb(38, 76, 89);
-    padding: 10px 30px 10px 33px;
+  font-weight: 300;
+  font-size: 70px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  color: #f1f1f1;
+  background-color: rgb(38, 76, 89);
+  padding: 10px 30px 10px 33px;
 }
 
 #number {
-    font-size: 200px;
-    font-weight: bold;
-    margin: 0;
+  font-size: 200px;
+  font-weight: bold;
+  margin: 0;
+  grid
 }
 
 #message {
-    font-size: 40px;
+  font-size: 40px;
 }
