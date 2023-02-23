@@ -26,8 +26,21 @@ function decrementNumber() {
 // updates UI
 function displayNumber() {
   document.querySelector("#number").textContent = number;
+  let message = "";
 
-  let message = `Tallet er nu højere end: ${number - 1}`;
+  if (number > 10) {
+    console.log("Number more than 10");
+    message = "Number is above 10!";
+  } else if (number == 10) {
+    console.log("Number is 10");
+    message = "YAAASSS QUEEN - you've hit 10!";
+  } else {
+    console.log("Number is less than 10");
+    message = "Keep smashing those buttons! The number is below 10";
+  }
+
   console.log(message);
-  document.querySelector("#message").textContent = "Hej";
+  document.querySelector("#message").textContent = message;
 }
+
+console.log(23 + 24);

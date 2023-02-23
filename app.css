@@ -42,7 +42,7 @@ button {
   font-size: 200px;
   font-weight: bold;
   margin: 0;
-  grid
+  grid: 0%;
 }
 
 #message {
