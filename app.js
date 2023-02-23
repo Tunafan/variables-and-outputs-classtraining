@@ -43,4 +43,4 @@ function displayNumber() {
   document.querySelector("#message").textContent = message;
 }
 
-console.log(23 + 24);
+console.log(19 + "");
